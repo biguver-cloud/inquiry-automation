@@ -73,7 +73,6 @@ pillow==11.0.0
 posthog==3.7.4
 propcache==0.2.1
 protobuf==5.29.1
-pulsar-client==3.5.0
 pyarrow==18.1.0
 pydantic==1.10.19
 pydeck==0.9.1
@@ -112,7 +111,7 @@ typing_extensions==4.12.2
 tzdata==2024.2
 urllib3==2.2.3
 uvicorn==0.32.1
-uvloop==0.21.0
+uvloop==0.21.0; platform_system != "Windows"
 watchfiles==1.0.0
 websockets==14.1
 yarl==1.18.3
